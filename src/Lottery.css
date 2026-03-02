@@ -1,0 +1,36 @@
+/* Container to center everything */
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Horizontal centering */
+    justify-content: center; /* Vertical centering */
+    min-height: 100vh;      /* Full screen height */
+    text-align: center;
+    background-color: #866262;
+}
+
+.Ticket {
+    border: 2px solid pink;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.TicketNum {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 5px 15px;
+    background-color: #391c1c;
+    color: white;  
+    border-radius: 5px;
+}
+
+.win {
+    color: orange;
+}
+
+ .btn{
+    background-color: #64706c;
+ }
